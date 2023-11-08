@@ -6,6 +6,8 @@ sudo pacman -S --needed base-devel pacman-contrib bash-completion zsh zsh-comple
 sudo pacman -S --needed less git vim
 sudo pacman -S --needed alacritty vscode 
 
+git config --global init.defaultBranch main
+
 #Yay install
 git clone https://aur.archlinux.org/yay.git ~/yay
 cd ~/yay
