@@ -3,10 +3,11 @@
 #Install software
 sudo pacman -Syyu
 sudo pacman -S --needed base-devel pacman-contrib bash-completion zsh zsh-completions x11-ssh-askpass
-sudo pacman -S --needed less git vim
+sudo pacman -S --needed less git vi vim
 sudo pacman -S --needed alacritty vscode 
 
 git config --global init.defaultBranch main
+git config --global core.editor "code --wait"
 
 #Yay install
 git clone https://aur.archlinux.org/yay.git ~/yay
