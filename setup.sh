@@ -1,13 +1,13 @@
 #!/bin/sh
-echo "Actualizando pacman..."
+
+#Install software
 sudo pacman -Syyu
+sudo pacman -S --needed base-devel pacman-contrib git vim
 
-sudo pacman -S vim
+#Yay install
+git clone https://aur.archlinux.org/yay.git ~/yay
+cd ~/yay
+makepkg -si
 
-#sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-
-echo "Actualizando lista servidores..."
-#sudo reflector --threads 4 --latest 20 --fastest 10 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
-sudo pacman-mirrors -f 5 5
-
-#cat /etc/pacman.d/mirrorlist
+yay -S rate-mirrors
+sudo rate-mirrors --entry-country ES --disable-comments --save /etc/pacman.d/mirrorlist --allow-root arch --max-delay 500
