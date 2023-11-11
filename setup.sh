@@ -29,3 +29,8 @@ rm -r ~/Música
 rm -r ~/Plantillas
 rm -r ~/Público
 rm -r ~/Vídeos
+
+#oh-my-bash
+bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+#OSH_THEME="agnoster"
+
