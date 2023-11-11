@@ -21,5 +21,11 @@ yay -S google-chrome pfetch
 yay -S rate-mirrors
 sudo rate-mirrors --entry-country ES --disable-comments --save /etc/pacman.d/mirrorlist --allow-root arch --max-delay 500
 
-
-
+rm -r ~/Descargas
+rm -r ~/Documentos
+rm -r ~/Escritorio
+rm -r ~/Imágenes
+rm -r ~/Música
+rm -r ~/Plantillas
+rm -r ~/Público
+rm -r ~/Vídeos
