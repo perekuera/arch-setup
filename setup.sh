@@ -34,3 +34,8 @@ rm -r ~/Vídeos
 bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
 #OSH_THEME="agnoster"
 
+#oh-my-zsh
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+#ZSH_THEME="agnoster"
+#ZSH_THEME="refined"
+
