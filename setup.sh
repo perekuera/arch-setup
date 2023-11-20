@@ -39,3 +39,17 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 #ZSH_THEME="agnoster"
 #ZSH_THEME="refined"
 
+#pulse secure
+yay -S pulse-secure
+
+#for pulse secuire UI
+sudo pacman -S libwebkit2gtk
+#systemctl start pulsesecure
+#systemctl enable pulsesecure
+#/opt/pulsesecure/bin/pulseUI
+
+#remmina
+sudo pacman -S remmina
+
+#teams
+yay -S teams
