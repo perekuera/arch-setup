@@ -40,3 +40,6 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 #ZSH_THEME="agnoster"
 #ZSH_THEME="refined"
 
+#Extensions Gnome 45
+yay -S gnome-browser-connector
+
