@@ -43,3 +43,17 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 #Extensions Gnome 45
 yay -S gnome-browser-connector
 
+#pulse secure
+yay -S pulse-secure
+
+#for pulse secuire UI
+sudo pacman -S libwebkit2gtk
+#systemctl start pulsesecure
+#systemctl enable pulsesecure
+#/opt/pulsesecure/bin/pulseUI
+
+#remmina
+sudo pacman -S remmina
+
+#teams
+yay -S teams
