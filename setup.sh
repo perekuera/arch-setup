@@ -47,7 +47,7 @@ yay -S gnome-browser-connector
 yay -S pulse-secure
 
 #for pulse secuire UI
-sudo pacman -S libwebkit2gtk
+sudo pacman -S webkit2gtk
 #systemctl start pulsesecure
 #systemctl enable pulsesecure
 #/opt/pulsesecure/bin/pulseUI
