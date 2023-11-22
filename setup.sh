@@ -54,3 +54,5 @@ sudo pacman -S remmina
 
 #teams
 yay -S teams
+
+sudo pacman -S --needed ttf-fira-sans
