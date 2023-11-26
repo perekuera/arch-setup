@@ -3,6 +3,7 @@
 #Install software
 sudo pacman -Syyu
 sudo pacman -S --needed base-devel pacman-contrib bash-completion zsh zsh-completions x11-ssh-askpass
+#sudo pacman -S --needed usbutils pciutils
 sudo pacman -S --needed less git vi vim
 sudo pacman -S --needed ttf-dejavu ttf-liberation noto-fonts
 sudo pacman -S --needed alacritty vscode 
