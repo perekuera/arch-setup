@@ -67,3 +67,14 @@ sudo pacman -S remmina
 yay -S teams
 
 sudo pacman -S gdm-settings
+
+#monitors
+sudo cp ~/.config/monitors.xml /var/lib/gdm/.config/
+
+#To automatically re-configure the monitor setup on each boot, use a drop-in file for gdm.service:
+#/etc/systemd/system/gdm.service.d/override.conf
+# [Service]
+# ExecStartPre=/bin/cp /home/user/.config/monitors.xml /var/lib/gdm/.config/monitors.xml
+
+#grub themes
+#git clone https://github.com/AdisonCavani/distro-grub-themes.git
