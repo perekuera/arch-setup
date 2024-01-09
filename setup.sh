@@ -6,11 +6,11 @@ sudo pacman -S --needed base-devel pacman-contrib bash-completion zsh zsh-comple
 #sudo pacman -S x11-ssh-askpass
 #sudo pacman -S --needed usbutils pciutils
 sudo pacman -S --needed less git vi vim
-sudo pacman -S --needed ttf-dejavu ttf-liberation noto-fonts
-sudo pacman -S --needed alacritty code 
+sudo pacman -S --needed ttf-dejavu ttf-liberation noto-fonts  ttf-fira-sans
+sudo pacman -S --needed alacritty 
 
-git config --global init.defaultBranch main
-git config --global core.editor "code --wait"
+mkdir ~/.config/alacritty
+cp ./config/alacritty.toml ~/.config/alacritty/
 
 #Yay install
 git clone https://aur.archlinux.org/yay.git
@@ -48,6 +48,12 @@ sudo pacman -S gnome-browser-connector
 #pulse secure
 yay -S pulse-secure
 
+#visual studio code
+yay -S visual-studio-code-bin
+
+git config --global init.defaultBranch main
+git config --global core.editor "code --wait"
+
 #for pulse secuire UI
 sudo pacman -S webkit2gtk
 #systemctl start pulsesecure
@@ -59,5 +65,3 @@ sudo pacman -S remmina
 
 #teams
 yay -S teams
-
-sudo pacman -S --needed ttf-fira-sans
