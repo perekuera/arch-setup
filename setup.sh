@@ -66,7 +66,8 @@ sudo pacman -S remmina
 #teams
 yay -S teams
 
-sudo pacman -S gdm-settings
+#gdm
+yay -S gdm-settings
 
 #monitors
 sudo cp ~/.config/monitors.xml /var/lib/gdm/.config/
