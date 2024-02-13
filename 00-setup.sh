@@ -81,3 +81,8 @@ sudo cp ~/.config/monitors.xml /var/lib/gdm/.config/
 #https://github.com/xenlism/Grub-themes/tree/main/xenlism-grub-arch-1080p/Xenlism-Arch
 #other
 #git clone https://github.com/AdisonCavani/distro-grub-themes.git
+
+sudo pacman -S dconf-editor
+
+#dconf
+#org/gnome/desktop/wm/keybindings (switch-windows <super>tab / switch-applications <alt>tab)
