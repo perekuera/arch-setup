@@ -78,4 +78,6 @@ sudo cp ~/.config/monitors.xml /var/lib/gdm/.config/
 # ExecStartPre=/bin/cp /home/user/.config/monitors.xml /var/lib/gdm/.config/monitors.xml
 
 #grub themes
+#https://github.com/xenlism/Grub-themes/tree/main/xenlism-grub-arch-1080p/Xenlism-Arch
+#other
 #git clone https://github.com/AdisonCavani/distro-grub-themes.git
