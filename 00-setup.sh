@@ -2,10 +2,10 @@
 
 #Install software
 sudo pacman -Syyu
-sudo pacman -S --needed base-devel pacman-contrib bash-completion zsh zsh-completions
+sudo pacman -S --needed pacman-contrib bash-completion zsh zsh-completions
 #sudo pacman -S x11-ssh-askpass
 #sudo pacman -S --needed usbutils pciutils
-sudo pacman -S --needed expect less git vi vim
+sudo pacman -S --needed expect less vi neovim
 sudo pacman -S --needed ttf-dejavu ttf-liberation noto-fonts  ttf-fira-sans
 sudo pacman -S --needed alacritty
 
@@ -23,14 +23,14 @@ yay -S google-chrome pfetch
 yay -S rate-mirrors
 sudo rate-mirrors --entry-country ES --disable-comments --save /etc/pacman.d/mirrorlist --allow-root arch --max-delay 500
 
-rm -r ~/Descargas
-rm -r ~/Documentos
-rm -r ~/Escritorio
-rm -r ~/Imágenes
-rm -r ~/Música
-rm -r ~/Plantillas
-rm -r ~/Público
-rm -r ~/Vídeos
+# rm -r ~/Descargas
+# rm -r ~/Documentos
+# rm -r ~/Escritorio
+# rm -r ~/Imágenes
+# rm -r ~/Música
+# rm -r ~/Plantillas
+# rm -r ~/Público
+# rm -r ~/Vídeos
 
 #oh-my-bash
 bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"

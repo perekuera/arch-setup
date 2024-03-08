@@ -5,7 +5,7 @@ background = "#0d0f11"
 size = 11.0
 
 [window]
-opacity = 0.8
+opacity = 1
 startup_mode = "Windowed"
 
 [window.dimensions]
